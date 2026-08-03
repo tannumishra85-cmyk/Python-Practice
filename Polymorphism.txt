@@ -1,0 +1,55 @@
+Inheritance + Overridding -> Polymorphism 
+Duck typing doesn't require inheritance
+
+Inheritance is one OOP concept. Polymorphism is another concept that can be achieved using inheritance + overriding.
+
+
+
+
+
+Inheritance
+   ↓
+"Who gets whose features?"
+
+Method Overriding
+   ↓
+"Who changes a parent's method?"
+
+Polymorphism
+   ↓
+"Same method call, different behavior."
+
+Duck Typing
+   ↓
+"I don't care what type you are;
+ can you do this operation?"
+
+
+ 🧠 Duck Typing rule:
+If the object has the required method → works.
+If it doesn't → AttributeError.
+
+
+Inheritance:
+"Is this object related to this parent?"
+
+Duck typing:
+"Can this object do what I need?"
+
+
+Inheritance
+    ↓
+Reuse parent features
+
+Method Overriding
+    ↓
+Child changes parent's method
+
+Polymorphism
+    ↓
+Same method call → different behavior
+
+Duck Typing
+    ↓
+Don't care about the class
+Just care whether the required method exists

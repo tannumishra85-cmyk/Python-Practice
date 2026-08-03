@@ -1,0 +1,10 @@
+Encapsulation------------>>>>>>>
+_balance
+   ↓
+Protected by convention (_ is mainly a programmer convention, not real protection)
+Python still allows access
+
+__balance
+   ↓
+Name mangling
+Direct __balance access doesn't work
