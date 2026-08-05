@@ -1,0 +1,16 @@
+| Concept           | Ask yourself |
+|---                |---           |
+| **Inheritance**   | "Can this class reuse another class's things?" |
+| **Overriding**    | "Does the child want to replace the parent's method?" |
+| **Polymorphism**  | "Can the same method call behave differently for different objects?" |
+| **Duck typing**   | "Do I care what the object is, or only whether it can do something?" |
+| **Encapsulation** | "How do I protect/control internal data?" |
+| **Abstraction**   | "What details can I hide so the user only deals with what's necessary?" |
+
+
+Inheritance  → gets/reuses
+Overriding   → changes
+Polymorphism → same call, different behavior
+Duck typing  → cares about capability
+Encapsulation → controls/protects data
+Abstraction  → hides complexity + defines what is required
