@@ -1,0 +1,14 @@
+random.randint(1, 10)
+→ random integer
+
+random.choice(list)
+→ randomly picks ONE item
+
+random.shuffle(list)
+→ randomly rearranges the list
+
+random.random()
+→ random decimal: 0 ≤ x < 1
+
+random.uniform(1, 10)
+→ random decimal between 1 and 10
