@@ -31,3 +31,5 @@ print(math.gcd(12,15)) # Greatest Common Divisor
 print(" ")
 print(random.randint(1,10)) # returns random numbers between [a, b]
 
+
+
