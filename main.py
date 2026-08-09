@@ -7,7 +7,7 @@
 # We can also write from calculator import multiply as mul
 
 import math # math Module ->> Python's standard-library module
-import calculator as calc 
+import calculator as calc  # This calculator is module inside Python-Practice
 import random
 
 # calculator -> Original module name
@@ -31,5 +31,21 @@ print(math.gcd(12,15)) # Greatest Common Divisor
 print(" ")
 print(random.randint(1,10)) # returns random numbers between [a, b]
 
+
+
+# ---------------- PACKAGE PRACTICE ----------------
+
+from mytools import calculator # This calculator is Packaged file
+
+print("Package Sum =", calculator.add(10, 20))
+print("Package Multiply =", calculator.multiply(5, 4))
+
+
+# -------------------__main__------------------------------
+
+print("\nMain program")
+print(calc.add(5,5))
+print(calc.subtract(2,1))
+print(calc.multiply(99,2))
 
 
