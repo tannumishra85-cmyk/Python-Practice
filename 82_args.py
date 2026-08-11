@@ -3,7 +3,9 @@
                 # store them as tuple
                 # * is tells pythonCollect all extra positional arguments into args.
                 # args is just conventional name >>>> *numbers is also allowed
-
+# *args >> unnamed/positional values >>>>>> tuple
+# **kwargs >> named/keyword values >>>>>> dictionary 
+# kwargs >> key-word arguments
 
 def add(*args):
     total = 0
