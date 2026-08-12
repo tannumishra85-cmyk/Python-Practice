@@ -40,4 +40,4 @@ def address(name, age):
 
 info = ("Tannu", 21)
 
-address(*info)
+address(*info) # unpacking dictionary >> keyword arguments
