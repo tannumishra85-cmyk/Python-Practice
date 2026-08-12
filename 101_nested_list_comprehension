@@ -1,6 +1,7 @@
 numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-result = [x**2 for row in numbers for x in row if x % 2 == 0]
+
+result = [x**2 for row in numbers for x in row if x % 2 == 0 and x > 10]
 # [expression for outer_item in outer_list for inner_item in outer_item if condition]
 
 print(result)
