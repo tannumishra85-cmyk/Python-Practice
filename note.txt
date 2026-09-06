@@ -1,0 +1,10 @@
+Type	        Syntax
+List	        [expression for x in iterable]
+Dictionary	    {key: value for x in iterable}
+Set	            {expression for x in iterable}
+
+map()    → many results → map object → list(...) often used
+map() = take every item → apply a function → get transformed values
+
+filter() → selected results → filter object → list(...) often used
+reduce() → ONE final result → no list needed
