@@ -8,3 +8,11 @@ map() = take every item → apply a function → get transformed values
 
 filter() → selected results → filter object → list(...) often used
 reduce() → ONE final result → no list needed
+
+
+############################################################################
+
+If i want to return some elements from a function in python as a tuple then simply 
+seperate them with a comma like >> return 10, 20 and 
+if we want to unpack them we can do >> a, b = numbers()  when we call the function and return 10, 20 in function definition.
+
