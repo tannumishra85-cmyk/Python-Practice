@@ -1,5 +1,5 @@
 class Student:  # class created
-    def __init__(self, name): # self is like TV remote... 
+    def __init__(self, name): # self points to object
         self.name = name      # rahul.name = Rahul
 
 rahul = Student("Rahul") # object_1 created

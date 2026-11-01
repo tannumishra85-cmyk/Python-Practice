@@ -1,7 +1,7 @@
 Student = {
     "name" : "Tannu",
     "Course" : "MCA",     #This a dictionary containing my details
-    "College" : "CUSAT"     #Every new line is sepersted with comma
+    "College" : "CUSAT"     #Every new line is seperated with comma 
 }
 
 print(Student["Course"])

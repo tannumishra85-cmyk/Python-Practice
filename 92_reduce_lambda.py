@@ -11,4 +11,4 @@ print(result)
 
 # map()    → many results → map object → list(...) often used
 # filter() → selected results → filter object → list(...) often used
-# reduce() → ONE final result → no list needed
+# reduce() → ONE final result → NO list needed

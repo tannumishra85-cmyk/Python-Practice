@@ -8,4 +8,4 @@ def student(name, *marks):
     print("Total =", total)
 
 
-student("Tannu", 80, 75, 98)
+student("Tannu", 80, 75, 98, 78)

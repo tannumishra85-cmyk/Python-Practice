@@ -1,4 +1,7 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter 2nd number: "))
+a = int(input("Enter first number: ")) 
+# Bydefault data-type of input is string..
 
-print("Sum is", a + b)
+b = int(input("Enter 2nd number: ")) 
+# int(input(...)) >> typecasting 
+
+print("Summation is = ", a + b)

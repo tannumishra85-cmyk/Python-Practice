@@ -5,3 +5,12 @@ numbers = [1, 2, 3, 4, 5, 6]
 squares = [n * n for n in numbers] # [expression for item in iterable]
 
 print(squares)
+
+
+# Or, 
+
+squares = []
+for i in numbers:
+    squares.append(i*i)
+
+print(squares)

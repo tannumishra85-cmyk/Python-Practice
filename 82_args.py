@@ -7,7 +7,7 @@
 # **kwargs >> named/keyword values >>>>>> dictionary 
 # kwargs >> key-word arguments
 
-def add(*args):
+def add(*args): # args = (10,20,30)
     total = 0
 
     for number in args:
@@ -18,4 +18,7 @@ def add(*args):
 print(add(10, 20))
 print(add(10, 20, 30))
 print(add(10, 20, 30, 40, 50))
-    
+
+
+
+
